@@ -1,0 +1,134 @@
+/*BODY*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 1cm;
+    padding: 1cm;
+}
+main{
+    margin: 1cm;
+}
+
+footer{
+    margin: 1cm;
+}
+
+/*HEADER*/
+header {
+    background-image: linear-gradient(#C0C5BF, #ddd2cc, #fefff3, #FFFFFF);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 50%;
+}
+
+.menusup {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+/*Estilos*/
+.menusup {
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+    color: #3C3C3B;
+}
+
+/*Animación*/
+.logo:hover {
+    transform: scale(2, 2);
+    transition: 6s;
+}
+
+
+/*MAIN*/
+
+/*Estilos*/
+
+.nosotros {
+    font-family: 'Astronauta Script', sans-serif;
+    color: #3f3e80;
+    font-size: 500%;
+    text-align: center;
+
+}
+
+.somos {
+    font-family: 'Nunito', sans-serif;
+    color: #3f3e80;
+    font-size: medium;
+    text-align: right;
+    
+}
+
+
+
+.beneficio {
+    font-family: 'Astronauta Script', sans-serif;
+    color: #3f3e80;
+    font-size: 350%;
+   text-align: center;
+   
+}
+
+
+.sfdp {
+    font-family: 'Nunito', sans-serif;
+    color: #3f3e80;
+    font-size: medium;
+    text-align: left;
+    
+}
+
+
+/*Animación*/
+.nosotros {
+    animation-name: nosotros;
+    animation-iteration-count: initial;
+    animation-duration: 6s;
+    animation-delay: 2s;
+}
+
+@keyframes nosotros {
+    0% {
+        color: #3f3e80;
+        transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+    }
+
+    33% {
+        color: #e0715d;
+        font-size: xx-large;
+    }
+
+    66% {
+        color: #82d0c0;
+        font-size: x-large;
+    }
+
+    100% {
+        color: #dcc043;
+    }
+}
+
+h2:hover {
+    color: #82d0c0;
+}
+
+
+/*FOOTER*/
+.mt-3{
+font-size: 40px;
+    text-align: right;
+    color: #3f3e80;}
+
+
+
