@@ -5,36 +5,28 @@
 }
 
 header {
-    margin: 1cm;
-    padding: 1cm;
+    margin: 0;
+    padding: 0;
 }
 main{
     margin: 1cm;
 }
 
 footer{
-    margin: 1cm;
+    margin: 0cm;
 }
 
 /*HEADER*/
-header{
-    background-image: linear-gradient(#C0C5BF, #ddd2cc, #fefff3,#FFFFFF);
+header {
+    background-image: linear-gradient(#C0C5BF, #ddd2cc, #fefff3, #FFFFFF);
     display: flex;
     flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
+    justify-content: space-around;
+    align-items: center;
 }
-ul{
-    display: flex;
-    list-style: none;
-}
+
 nav {
     width: 50%;
-}
-/*Animación*/
-.logo:hover {
-    transform: scale(2, 2);
-    transition: 6s;
 }
 
 .menusup {
@@ -44,30 +36,56 @@ nav {
     flex-wrap: wrap;
 }
 
+/*Estilos*/
+.menusup {
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+    color: #3C3C3B;
+}
+
+/*Animación*/
+.logo:hover {
+    transform: scale(2, 2);
+    transition: 6s;
+}
+
+
+/*NOSOTROS*/
 /*MAIN*/
 
-.form {
+.nosotros {
     font-family: 'Astronauta Script', sans-serif;
-    color: #e0715d;
+    color: #676967;
     font-size: 350%;
 }
 
-.formulario {
+.somos {
     font-family: 'Nunito', sans-serif;
-    color: #e0715d;
+    color: #676967;
     font-size: large;
 }
 
-.btn{
-    color: #e0715d;
+.transmitir{font-family: 'Astronauta Script', sans-serif;
+    color: #676967;
+    font-size: 350%;
 }
 
+.mov{font-family: 'Nunito', sans-serif;
+    color: #676967;
+    font-size: large;
+
+}
 
 
 
 
 /*FOOTER*/
-.redes{
-    font-size: 40px;
+footer{
+
+background-image: linear-gradient( #FFFFFF, #fefff3, #ddd2cc, #C0C5BF)
+}
+.list-inline-item{
+font-size: 40px;
     text-align: right;
-    color: #e0715d ;}
+    color:#e0715d;}
+

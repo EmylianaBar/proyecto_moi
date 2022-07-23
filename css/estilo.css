@@ -5,15 +5,15 @@
 }
 
 header {
-    margin: 1cm;
-    padding: 1cm;
+    margin: 0;
+    padding: 0;
 }
 main{
     margin: 1cm;
 }
 
 footer{
-    margin: 1cm;
+    margin: 0cm;
 }
 
 /*HEADER*/
@@ -125,6 +125,10 @@ h2:hover {
 
 
 /*FOOTER*/
+footer{
+
+    background-image: linear-gradient( #FFFFFF, #fefff3, #ddd2cc, #C0C5BF)
+}
 .list-inline-item{
 font-size: 40px;
     text-align: right;
