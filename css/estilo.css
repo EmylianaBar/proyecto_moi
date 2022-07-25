@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+@font-face{
+    font-family: Astronauta;
+    src: url(../font/Astronauta-Script.ttf);
+    
+}
 
 header {
     margin: 0;
@@ -55,7 +60,7 @@ nav {
 /*Estilos*/
 
 .nosotros {
-    font-family: 'Astronauta Script', sans-serif;
+    font-family: Astronauta;
     color: #676967;
     
     font-size: 250%;
