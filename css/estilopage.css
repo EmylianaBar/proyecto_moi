@@ -76,8 +76,53 @@ nav {
 
 }
 
+/*PROFES*/
+/*Main*/
+.pro{
+    text-decoration:underline;
+    font-family: 'Astronauta Script', sans-serif;
+    color: #3f3e80;
+    font-size: 350%;
 
+}
+.mm{font-family: 'Astronauta Script', sans-serif;
+    color: #3f3e80;
+    font-size: 275%;
 
+}
+.profes{
+    font-family: 'Nunito', sans-serif;
+    color:#3f3e80 ;
+}
+
+/*HORARIOS*/
+/*Main*/
+.mainh{}
+    
+.hs{text-decoration:underline;
+    font-family: 'Astronauta Script', sans-serif;
+    color: #82d0c0;
+    font-size: 350%;
+    
+}
+
+.h2h{font-family: 'Astronauta Script', sans-serif;
+    color: #82d0c0;
+    font-size: 275%;
+    
+    
+}
+.h3h{font-family: 'Nunito', sans-serif;
+    color:#82d0c0 ;
+    font-size:xx-large;
+    
+
+    
+}
+.ph{font-family: 'Nunito', sans-serif;
+    color:#82d0c0 ;
+    
+}
 
 /*FOOTER*/
 footer{
@@ -86,6 +131,5 @@ background-image: linear-gradient( #FFFFFF, #fefff3, #ddd2cc, #C0C5BF)
 }
 .list-inline-item{
 font-size: 40px;
-    text-align: right;
-    color:#e0715d;}
+}
 

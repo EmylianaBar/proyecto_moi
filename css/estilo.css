@@ -56,15 +56,18 @@ nav {
 
 .nosotros {
     font-family: 'Astronauta Script', sans-serif;
-    color: #3f3e80;
+    color: #676967;
+    
     font-size: 500%;
     text-align: center;
+    
 
 }
 
 .somos {
     font-family: 'Nunito', sans-serif;
-    color: #3f3e80;
+    color: #676967;
+    
     font-size: medium;
     text-align: right;
     
@@ -74,7 +77,7 @@ nav {
 
 .beneficio {
     font-family: 'Astronauta Script', sans-serif;
-    color: #3f3e80;
+    color: #676967;
     font-size: 350%;
    text-align: center;
    
@@ -83,7 +86,7 @@ nav {
 
 .sfdp {
     font-family: 'Nunito', sans-serif;
-    color: #3f3e80;
+    color: #676967;
     font-size: medium;
     text-align: left;
     
@@ -100,27 +103,28 @@ nav {
 
 @keyframes nosotros {
     0% {
-        color: #3f3e80;
+        color: #676967;
         transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
     }
 
     33% {
+        color:#3f3e80 ;
+    }
+    66% {
         color: #e0715d;
         font-size: xx-large;
     }
 
-    66% {
+    100% {
         color: #82d0c0;
         font-size: x-large;
     }
 
-    100% {
-        color: #dcc043;
-    }
+    
 }
 
 h2:hover {
-    color: #82d0c0;
+    color: #3f3e80;
 }
 
 
