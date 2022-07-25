@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+@font-face{
+    font-family: Font1;
+    src: url("../font/DancingScript-Regular.ttf");
+
+}
+@font-face{
+    font-family: Font2;
+    src: url(../font/Nunito-VariableFont_wght.ttf)
+}
+
 header {
     margin: 0;
     padding: 0;
@@ -39,7 +49,7 @@ nav {
 /*Estilos*/
 .menusup {
     list-style-type: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: Font2;
     color: #3C3C3B;
 }
 
@@ -54,23 +64,26 @@ nav {
 /*MAIN*/
 
 .nosotros {
-    font-family: 'Astronauta Script', sans-serif;
+    font-family: Font1;
     color: #676967;
+    font-weight: 700;
     font-size: 200%;
 }
 
 .somos {
-    font-family: 'Nunito', sans-serif;
+    font-family: Font2;
     color: #676967;
     font-size: large;
 }
 
-.transmitir{font-family: 'Astronauta Script', sans-serif;
+.transmitir{
+    font-family: Font1;
+    font-weight: 700;
     color: #676967;
     font-size: 200%;
 }
 
-.mov{font-family: 'Nunito', sans-serif;
+.mov{font-family: Font2;
     color: #676967;
     font-size: large;
 
@@ -80,18 +93,19 @@ nav {
 /*Main*/
 .pro{
     text-decoration:underline;
-    font-family: 'Astronauta Script', sans-serif;
+    font-family: Font1;
+    font-weight: 700;
     color: #3f3e80;
     font-size: 200%;
 
 }
-.mm{font-family: 'Astronauta Script', sans-serif;
+.mm{font-family: Font1;
     color: #3f3e80;
     font-size: 200%;
 
 }
 .profes{
-    font-family: 'Nunito', sans-serif;
+    font-family: Font2;
     color:#3f3e80 ;
 }
 
@@ -100,26 +114,28 @@ nav {
 .mainh{}
     
 .hs{text-decoration:underline;
-    font-family: 'Astronauta Script', sans-serif;
+    font-family: Font1;
+    font-weight: 700;
     color: #82d0c0;
     font-size: 200%;
     
 }
 
-.h2h{font-family: 'Astronauta Script', sans-serif;
+.h2h{font-family: Font1;
+    font-weight: 500;
     color: #82d0c0;
     font-size: 275%;
     
     
 }
-.h3h{font-family: 'Nunito', sans-serif;
+.h3h{font-family: Font2;
     color:#82d0c0 ;
     font-size:xx-large;
     
 
     
 }
-.ph{font-family: 'Nunito', sans-serif;
+.ph{font-family: Font2;
     color:#82d0c0 ;
     
 }
