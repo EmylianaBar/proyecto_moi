@@ -92,7 +92,7 @@ nav {
 /*PROFES*/
 /*Main*/
 .pro{
-    text-decoration:underline;
+    
     font-family: Font1;
     font-weight: 700;
     color: #3f3e80;
@@ -113,7 +113,7 @@ nav {
 /*Main*/
 .mainh{}
     
-.hs{text-decoration:underline;
+.hs{
     font-family: Font1;
     font-weight: 700;
     color: #82d0c0;
