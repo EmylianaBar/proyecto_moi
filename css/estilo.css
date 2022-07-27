@@ -1,152 +1,115 @@
+@charset "UTF-8";
 /*BODY*/
+/*COLORES*/
 * {
-    margin: 0;
-    padding: 0;
-}
-@font-face{
-    font-family: Font1;
-    src: url("../font/DancingScript-Regular.ttf");
+  margin: 0;
+  padding: 0; }
 
-}
-@font-face{
-    font-family: Font2;
-    src: url(../font/Nunito-VariableFont_wght.ttf)
-}
+@font-face {
+  font-family: Font1;
+  src: url("../font/DancingScript-Regular.ttf"); }
+
+@font-face {
+  font-family: Font2;
+  src: url(../font/Nunito-VariableFont_wght.ttf); }
+
+nav {
+  text-decoration: none; }
 
 header {
-    margin: 0;
-    padding: 0;
-}
-main{
-    margin: 1cm;
-}
+  margin: 0;
+  padding: 0; }
 
-footer{
-    margin: 0cm;
-}
+main {
+  margin: 1cm; }
+
+footer {
+  margin: 0cm; }
 
 /*HEADER*/
 header {
-    background-image: linear-gradient(#C0C5BF, #ddd2cc, #fefff3, #FFFFFF);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
+  background-image: linear-gradient(#C0C5BF, #ddd2cc, #fefff3, #FFFFFF);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
 
 nav {
-    width: 50%;
-}
+  width: 50%; }
 
 .menusup {
-    justify-content: space-between;
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-}
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap; }
 
 /*Estilos*/
 .menusup {
-    list-style-type: none;
-    font-family: Font2;
-    color: #3C3C3B;
-}
+  list-style-type: none;
+  font-family: Font2;
+  color: #3C3C3B; }
 
 /*Animación*/
 .logo:hover {
-    transform: scale(2, 2);
-    transition: 6s;
-}
-
+  transform: scale(2, 2);
+  transition: 6s; }
 
 /*MAIN*/
-
 /*Estilos*/
-
 .nosotros {
-    font-family: Font1;
-    color: #676967;
-    font-weight: 700;
-    font-size: 300%;
-    text-align: center;
-    
-
-}
+  font-family: Font1;
+  color: #676967;
+  font-weight: 700;
+  font-size: 300%;
+  text-align: center; }
 
 .somos {
-    font-family: Font2;
-    color: #676967;
-    
-    font-size: medium;
-    text-align: right;
-    
-}
-
-
+  font-family: Font2;
+  color: #676967;
+  font-size: medium;
+  text-align: right; }
 
 .beneficio {
-    font-family: Font1;
-    color: #676967;
-    font-weight: 700;
-    font-size: 250%;
-   text-align: center;
-   
-}
-
+  font-family: Font1;
+  color: #676967;
+  font-weight: 700;
+  font-size: 250%;
+  text-align: center; }
 
 .sfdp {
-    font-family: Font2;
-    color: #676967;
-    font-size: medium;
-    text-align: left;
-    
-}
-
+  font-family: Font2;
+  color: #676967;
+  font-size: medium;
+  text-align: left; }
 
 /*Animación*/
 .nosotros {
-    animation-name: nosotros;
-    animation-iteration-count: initial;
-    animation-duration: 6s;
-    animation-delay: 2s;
-}
+  animation-name: nosotros;
+  animation-iteration-count: initial;
+  animation-duration: 6s;
+  animation-delay: 2s; }
 
 @keyframes nosotros {
-    0% {
-        color: #676967;
-        transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
-    }
-
-    33% {
-        color:#3f3e80 ;
-    }
-    66% {
-        color: #e0715d;
-        font-size: xx-large;
-    }
-
-    100% {
-        color: #82d0c0;
-        font-size: x-large;
-    }
-
-    
-}
+  0% {
+    color: #676967;
+    transform: matrix(1.2, 0.2, -1, 0.9, 0, 20); }
+  33% {
+    color: #3f3e80; }
+  66% {
+    color: #e0715d;
+    font-size: xx-large; }
+  100% {
+    color: #82d0c0;
+    font-size: x-large; } }
 
 h2:hover {
-    color: #3f3e80;
-}
-
+  color: #3f3e80; }
 
 /*FOOTER*/
-footer{
+footer {
+  background-image: linear-gradient(#FFFFFF, #fefff3, #ddd2cc, #C0C5BF); }
 
-    background-image: linear-gradient( #FFFFFF, #fefff3, #ddd2cc, #C0C5BF)
-}
-.list-inline-item{
-font-size: 40px;
-    text-align: right;
-    color: #3f3e80;}
-
-
-
+.list-inline-item {
+  font-size: 40px;
+  text-align: right;
+  color: #3f3e80; }

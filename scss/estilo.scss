@@ -1,8 +1,10 @@
 /*BODY*/
+@import "variables";
 * {
     margin: 0;
     padding: 0;
 }
+
 
 @font-face{
     font-family: Font1;
@@ -13,14 +15,17 @@
     font-family: Font2;
     src: url(../font/Nunito-VariableFont_wght.ttf)
 }
+nav{
+    text-decoration: none;
+}
 
 header {
     margin: 0;
     padding: 0;
 }
-nav{
-    text-decoration: none;
-}
+
+
+
 main{
     margin: 1cm;
 }
@@ -63,92 +68,94 @@ nav {
 }
 
 
-/*NOSOTROS*/
 /*MAIN*/
+
+/*Estilos*/
 
 .nosotros {
     font-family: Font1;
-    color: #676967;
+    color: $color-gris; 
     font-weight: 700;
-    font-size: 200%;
+    font-size: 300%;
+    text-align: center;
+    
+
 }
 
 .somos {
     font-family: Font2;
-    color: #676967;
-    font-size: large;
-}
-
-.transmitir{
-    font-family: Font1;
-    font-weight: 700;
-    color: #676967;
-    font-size: 200%;
-}
-
-.mov{font-family: Font2;
-    color: #676967;
-    font-size: large;
-
-}
-
-/*PROFES*/
-/*Main*/
-.pro{
+    color: $color-gris; 
     
+    font-size: medium;
+    text-align: right;
+    
+}
+
+
+
+.beneficio {
     font-family: Font1;
+    color: $color-gris;
     font-weight: 700;
-    color: #3f3e80;
-    font-size: 200%;
-
+    font-size: 250%;
+   text-align: center;
+   
 }
-.mm{font-family: Font1;
-    color: #3f3e80;
-    font-size: 200%;
 
-}
-.profes{
+
+.sfdp {
     font-family: Font2;
-    color:#3f3e80 ;
-}
-
-/*HORARIOS*/
-/*Main*/
-
-    
-.hs{
-    font-family: Font1;
-    font-weight: 700;
-    color: #82d0c0;
-    font-size: 200%;
+    color: $color-gris;
+    font-size: medium;
+    text-align: left;
     
 }
 
-.h2h{font-family: Font1;
-    font-weight: 500;
-    color: #82d0c0;
-    font-size: 275%;
-    
-    
+
+/*Animación*/
+.nosotros {
+    animation-name: nosotros;
+    animation-iteration-count: initial;
+    animation-duration: 6s;
+    animation-delay: 2s;
 }
-.h3h{font-family: Font2;
-    color:#82d0c0 ;
-    font-size:xx-large;
-    
+
+@keyframes nosotros {
+    0% {
+        color: $color-gris;
+        transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+    }
+
+    33% {
+        color:#3f3e80 ;
+    }
+    66% {
+        color: #e0715d;
+        font-size: xx-large;
+    }
+
+    100% {
+        color: #82d0c0;
+        font-size: x-large;
+    }
 
     
 }
-.ph{font-family: Font2;
-    color:#82d0c0 ;
-    
+
+h2:hover {
+    color: #3f3e80;
 }
+
 
 /*FOOTER*/
 footer{
 
-background-image: linear-gradient( #FFFFFF, #fefff3, #ddd2cc, #C0C5BF)
+    background-image: linear-gradient( #FFFFFF, #fefff3, #ddd2cc, #C0C5BF)
 }
 .list-inline-item{
 font-size: 40px;
-}
+    text-align: right;
+    color: #3f3e80;}
+
+
 
