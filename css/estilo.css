@@ -1,6 +1,30 @@
 @charset "UTF-8";
+/*COLORS*/
+/*colors-neutros*/
+/*colors-logo*/
+/*spacing*/
+/*font-family*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Nunito:wght@200;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem; }
+
+.logo {
+  max-width: 120px; }
+
+.nav {
+  display: flex;
+  gap: 2rem; }
+
 /*BODY*/
-/*COLORES*/
 * {
   margin: 0;
   padding: 0; }
@@ -113,3 +137,128 @@ footer {
   font-size: 40px;
   text-align: right;
   color: #3f3e80; }
+
+/*BODY*/
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: Font1;
+  src: url("../font/DancingScript-Regular.ttf"); }
+
+@font-face {
+  font-family: Font2;
+  src: url(../font/Nunito-VariableFont_wght.ttf); }
+
+header {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  text-decoration: none; }
+
+main {
+  margin: 1cm; }
+
+footer {
+  margin: 0cm; }
+
+/*HEADER*/
+header {
+  background-image: linear-gradient(#C0C5BF, #ddd2cc, #fefff3, #FFFFFF);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+nav {
+  width: 50%; }
+
+.menusup {
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap; }
+
+/*Estilos*/
+.menusup {
+  list-style-type: none;
+  font-family: Font2;
+  color: #3C3C3B; }
+
+/*Animación*/
+.logo:hover {
+  transform: scale(2, 2);
+  transition: 6s; }
+
+/*NOSOTROS*/
+/*MAIN*/
+.nosotros {
+  font-family: Font1;
+  color: #676967;
+  font-weight: 700;
+  font-size: 200%; }
+
+.somos {
+  font-family: Font2;
+  color: #676967;
+  font-size: large; }
+
+.transmitir {
+  font-family: Font1;
+  font-weight: 700;
+  color: #676967;
+  font-size: 200%; }
+
+.mov {
+  font-family: Font2;
+  color: #676967;
+  font-size: large; }
+
+/*PROFES*/
+/*Main*/
+.pro {
+  font-family: Font1;
+  font-weight: 700;
+  color: #3f3e80;
+  font-size: 200%; }
+
+.mm {
+  font-family: Font1;
+  color: #3f3e80;
+  font-size: 200%; }
+
+.profes {
+  font-family: Font2;
+  color: #3f3e80; }
+
+/*HORARIOS*/
+/*Main*/
+.hs {
+  font-family: Font1;
+  font-weight: 700;
+  color: #82d0c0;
+  font-size: 200%; }
+
+.h2h {
+  font-family: Font1;
+  font-weight: 500;
+  color: #82d0c0;
+  font-size: 275%; }
+
+.h3h {
+  font-family: Font2;
+  color: #82d0c0;
+  font-size: xx-large; }
+
+.ph {
+  font-family: Font2;
+  color: #82d0c0; }
+
+/*FOOTER*/
+footer {
+  background-image: linear-gradient(#FFFFFF, #fefff3, #ddd2cc, #C0C5BF); }
+
+.list-inline-item {
+  font-size: 40px; }

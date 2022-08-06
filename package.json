@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css css/estilopage.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
-   
+    "build-sass": "node-sass --include-patch scss sass/index.scss ./css/estilo.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EmylianaBar/proyecto_moi.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {

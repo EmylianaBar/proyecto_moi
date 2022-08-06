@@ -1,0 +1,12 @@
+header{
+    @include flex(row, space-around, center);
+    padding: $spacing-small;
+}
+
+.logo{
+    max-width: 120px;
+    }
+.nav{
+    display:flex;
+    gap: $spacing-small
+}
